@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GomiBoom - Una explosión de sabor</title>
+        <meta name="description"
+            content="GomiBoom: Gomitas de mango con colágeno natural extraído de hueso de res. Un snack saludable con beneficios para la piel, articulaciones y cabello.">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <!-- Añadir Chart.js para los gráficos -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="container">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="GomiBoom Logo">
+                    </div>
+                    <div class="menu-toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul class="nav-menu">
+                        <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                        <li><a href="#producto"
+                                class="nav-link">Producto</a></li>
+                        <li><a href="#beneficios"
+                                class="nav-link">Beneficios</a></li>
+                        <li><a href="#sostenibilidad"
+                                class="nav-link">Sostenibilidad</a></li>
+                        <li><a href="#analisis-financiero"
+                                class="nav-link">Análisis Financiero</a></li>
+                        <li><a href="#contacto"
+                                class="nav-link">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Hero Section -->
+            <section id="inicio" class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1>GomiBoom</h1>
+                        <h2>Una explosión de sabor</h2>
+                        <p>Descubre nuestras deliciosas gomitas de mango con
+                            colágeno natural extraído de hueso de res. Un snack
+                            saludable con forma de huesos y dinosaurios.</p>
+                        <a href="#producto" class="btn-primary">Conoce más</a>
+                    </div>
+                    <div class="hero-image">
+                        <img src="images/product-hero.png"
+                            alt="GomiBoom Gomitas">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Producto Section -->
+            <section id="producto" class="producto">
+                <div class="container">
+                    <h2 class="section-title">Nuestro Producto</h2>
+                    <div class="product-content">
+                        <div class="product-image">
+                            <img src="images/product-detail.png"
+                                alt="GomiBoom Producto">
+                        </div>
+                        <div class="product-info">
+                            <h3>¿Qué es GomiBoom?</h3>
+                            <p>GomiBoom es una línea de gomitas funcionales
+                                elaboradas a partir de colágeno extraído de
+                                huesos de res, combinado con delicioso sabor a
+                                mango natural y endulzado con miel.</p>
+                            <p>Nuestras gomitas tienen formas divertidas de
+                                huesos y dinosaurios, ofreciendo una experiencia
+                                única que combina sabor y nutrición.</p>
+                            <div class="product-features">
+                                <div class="feature">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Alto contenido en colágeno
+                                        natural</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Sabor natural a mango</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Sin colorantes ni saborizantes
+                                        artificiales</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Endulzado con miel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Beneficios Section -->
+            <section id="beneficios" class="beneficios">
+                <div class="container">
+                    <h2 class="section-title">Beneficios</h2>
+                    <div class="benefits-grid">
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h3>Salud de la Piel</h3>
+                            <p>El colágeno natural promueve la elasticidad de la
+                                piel y reduce signos de envejecimiento.</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-bone"></i>
+                            </div>
+                            <h3>Fortalece Articulaciones</h3>
+                            <p>Ayuda a fortalecer huesos, articulaciones y
+                                tejidos conectivos.</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-apple-alt"></i>
+                            </div>
+                            <h3>Snack Funcional</h3>
+                            <p>Un snack diario con alto valor nutricional y
+                                beneficios para la salud.</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <h3>Ingredientes Naturales</h3>
+                            <p>Libre de conservantes y colorantes
+                                artificiales.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sostenibilidad Section -->
+            <section id="sostenibilidad" class="sostenibilidad">
+                <div class="container">
+                    <h2 class="section-title">Compromiso con la
+                        Sostenibilidad</h2>
+                    <div class="sustainability-content">
+                        <div class="sustainability-info">
+                            <h3>Economía Circular</h3>
+                            <p>En GomiBoom transformamos lo que normalmente
+                                sería un desecho en un producto valioso y
+                                nutritivo. Aprovechamos los huesos de res,
+                                reduciendo el desperdicio en la industria
+                                cárnica.</p>
+                            <h3>Impacto Ambiental</h3>
+                            <p>Contribuimos a reducir la contaminación generada
+                                por los desechos cárnicos, dándole un nuevo
+                                valor a un material subutilizado.</p>
+                            <h3>Apoyo Local</h3>
+                            <p>Trabajamos con proveedores locales de hueso de
+                                res y frutas, apoyando las cadenas productivas
+                                de nuestra comunidad.</p>
+                        </div>
+                        <div class="sustainability-image">
+                            <img src="images/sustainability.png"
+                                alt="Sostenibilidad GomiBoom">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- NUEVA SECCIÓN: Análisis Financiero -->
+            <section id="analisis-financiero" class="analisis-financiero">
+                <div class="container">
+                    <div class="financial-header">
+                        <h2 class="section-title">Análisis Financiero de
+                            GomiBoom</h2>
+                        <h3 class="financial-subtitle">Innovación en Gomitas
+                            Saludables</h3>
+                        <div class="financial-meta">
+                            <p><strong>Integrantes:</strong> Aquino Calderón
+                                Karina Noemi, Sánchez Zúñiga Estrella Isabel</p>
+                            <p><strong>Docente:</strong> Katia Isabel Gayosso
+                                Suárez</p>
+                            <p><strong>Fecha:</strong> 12 de mayo de 2025</p>
+                        </div>
+                    </div>
+
+                    <!-- Producto y Mercado -->
+                    <div class="financial-section">
+                        <h3 class="financial-section-title">1. Producto y
+                            Mercado</h3>
+                        <div class="financial-content">
+                            <div class="financial-text">
+                                <h4>¿Qué es GomiBoom?</h4>
+                                <p>Gomitas saludables elaboradas con
+                                    ingredientes naturales como hueso de res,
+                                    mango y grenetina, ofreciendo un snack
+                                    nutritivo y sabroso.</p>
+
+                                <h4>Público objetivo</h4>
+                                <p>Personas que buscan alternativas saludables a
+                                    los dulces tradicionales, deportistas, y
+                                    consumidores preocupados por su
+                                    bienestar.</p>
+
+                                <h4>Propuesta de valor</h4>
+                                <ul class="value-props">
+                                    <li><i class="fas fa-check"></i> Libre de
+                                        conservadores</li>
+                                    <li><i class="fas fa-check"></i> Bajo en
+                                        calorías</li>
+                                    <li><i class="fas fa-check"></i> Alto en
+                                        proteínas</li>
+                                    <li><i class="fas fa-check"></i>
+                                        Ingredientes 100% naturales</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Costos de Producción -->
+                    <div class="financial-section">
+                        <h3 class="financial-section-title">2. Costos de
+                            Producción</h3>
+                        <div class="financial-content">
+                            <div class="financial-text">
+                                <h4>Costo Unitario por 25g</h4>
+                                <p>El costo total de producción por unidad es de
+                                    <strong>$15.93</strong>, desglosado de la
+                                    siguiente manera:</p>
+                            </div>
+                            <div class="chart-container">
+                                <canvas id="costChart"></canvas>
+                            </div>
+                            <div class="financial-details">
+                                <div class="detail-item">
+                                    <h5>Materia Prima: $9.80</h5>
+                                    <ul>
+                                        <li>Hueso de res: $3.00</li>
+                                        <li>Azúcar: $1.82</li>
+                                        <li>Mango: $1.50</li>
+                                        <li>Otros ingredientes: $3.48</li>
+                                    </ul>
+                                </div>
+                                <div class="detail-item">
+                                    <h5>Mano de Obra Directa: $7.08</h5>
+                                    <p>Incluye 3 roles principales: limpieza,
+                                        cocina y envasado.</p>
+                                </div>
+                                <div class="detail-item">
+                                    <h5>Gastos Indirectos (GIF): $4.06</h5>
+                                    <p><strong>Variables:</strong> agua, moldes,
+                                        etiquetas.</p>
+                                    <p><strong>Fijos:</strong> Sueldos
+                                        administrativos, renta, energía.</p>
+                                </div>
+                            </div>
+                            <div class="cost-distribution">
+                                <div class="pie-chart-container">
+                                    <canvas id="costDistributionChart"></canvas>
+                                </div>
+                                <div class="distribution-text">
+                                    <p>El <strong>60%</strong> corresponde a
+                                        costos variables y el
+                                        <strong>40%</strong> a costos fijos, lo
+                                        que permite una estructura financiera
+                                        flexible y adaptable a cambios en la
+                                        demanda.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Precio al Público -->
+                    <div class="financial-section">
+                        <h3 class="financial-section-title">3. Precio al
+                            Público</h3>
+                        <div class="financial-content">
+                            <div class="price-card">
+                                <div class="price-header">
+                                    <h4>Precio de Venta</h4>
+                                    <div class="price-tag">$23.10</div>
+                                    <p>por unidad de 25g</p>
+                                </div>
+                                <div class="price-details">
+                                    <div class="price-item">
+                                        <span>Costo Unitario:</span>
+                                        <span>$15.93</span>
+                                    </div>
+                                    <div class="price-item">
+                                        <span>Margen de Utilidad:</span>
+                                        <span>40%</span>
+                                    </div>
+                                    <div class="price-item total">
+                                        <span>Precio Final:</span>
+                                        <span>$23.10</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price-justification">
+                                <h4>Justificación del Precio</h4>
+                                <ul>
+                                    <li><i class="fas fa-chart-line"></i>
+                                        <strong>Competitivo</strong> frente a
+                                        productos similares en el mercado.</li>
+                                    <li><i class="fas fa-gem"></i> Refleja la
+                                        <strong>calidad premium</strong> de los
+                                        ingredientes utilizados.</li>
+                                    <li><i class="fas fa-balance-scale"></i>
+                                        Permite mantener un
+                                        <strong>equilibrio</strong> entre
+                                        accesibilidad y rentabilidad.</li>
+                                    <li><i class="fas fa-hand-holding-usd"></i>
+                                        Ofrece <strong>valor percibido</strong>
+                                        acorde a los beneficios del
+                                        producto.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Punto de Equilibrio -->
+                    <div class="financial-section">
+                        <h3 class="financial-section-title">4. Punto de
+                            Equilibrio</h3>
+                        <div class="financial-content">
+                            <div class="chart-container">
+                                <canvas id="breakEvenChart"></canvas>
+                            </div>
+                            <div class="breakeven-details">
+                                <div class="breakeven-item">
+                                    <h4>Punto de Equilibrio Anual</h4>
+                                    <div class="breakeven-number">337,173</div>
+                                    <p>unidades vendidas para cubrir costos
+                                        fijos de $541,800</p>
+                                </div>
+                                <div class="breakeven-item">
+                                    <h4>Con Utilidad Deseada ($300,000)</h4>
+                                    <div class="breakeven-number">541,800</div>
+                                    <p>unidades vendidas para alcanzar el
+                                        objetivo</p>
+                                </div>
+                            </div>
+                            <div class="breakeven-verification">
+                                <h4>Comprobación</h4>
+                                <ul>
+                                    <li><strong>Ventas anuales
+                                            proyectadas:</strong>
+                                        $7,790,099</li>
+                                    <li><strong>Utilidad neta:</strong> $300,000
+                                        (cumple objetivo)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pronóstico de Ventas -->
+                    <div class="financial-section">
+                        <h3 class="financial-section-title">5. Pronóstico de
+                            Ventas</h3>
+                        <div class="financial-content">
+                            <div class="chart-container">
+                                <canvas id="salesForecastChart"></canvas>
+                            </div>
+                            <div class="forecast-summary">
+                                <div class="forecast-item">
+                                    <i class="fas fa-bullseye"></i>
+                                    <div>
+                                        <h4>Meta Anual</h4>
+                                        <p>337,173 unidades</p>
+                                    </div>
+                                </div>
+                                <div class="forecast-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <div>
+                                        <h4>Meses con Mayor Demanda</h4>
+                                        <p>Mayo y junio (9% cada uno)</p>
+                                    </div>
+                                </div>
+                                <div class="forecast-item">
+                                    <i class="fas fa-dollar-sign"></i>
+                                    <div>
+                                        <h4>Ingresos Proyectados</h4>
+                                        <p>$7,790,099 al año</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Inversión Inicial y Financiamiento -->
+                    <div class="financial-section">
+                        <h3 class="financial-section-title">6. Inversión Inicial
+                            y Financiamiento</h3>
+                        <div class="financial-content">
+                            <div class="investment-card">
+                                <div class="investment-header">
+                                    <h4>Inversión Requerida</h4>
+                                    <div class="investment-amount">$55,500</div>
+                                </div>
+                                <div class="investment-details">
+                                    <h5>Destino de la inversión:</h5>
+                                    <ul>
+                                        <li>Maquinaria especializada</li>
+                                        <li>Moldes para producción</li>
+                                        <li>Materias primas iniciales</li>
+                                        <li>Gastos de operación iniciales</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="financing-options">
+                                <h4>Opciones de Financiamiento</h4>
+                                <div class="financing-cards">
+                                    <div class="financing-card">
+                                        <div class="financing-icon">
+                                            <i class="fas fa-landmark"></i>
+                                        </div>
+                                        <h5>Sí Financia Michoacán</h5>
+                                        <ul>
+                                            <li>Préstamos de $500k a $5M</li>
+                                            <li>Tasas preferenciales</li>
+                                            <li>Enfoque en emprendimientos
+                                                locales</li>
+                                        </ul>
+                                    </div>
+                                    <div class="financing-card">
+                                        <div class="financing-icon">
+                                            <i
+                                                class="fas fa-hand-holding-usd"></i>
+                                        </div>
+                                        <h5>Fondo Nacional Emprendedor</h5>
+                                        <ul>
+                                            <li>Hasta $5M en financiamiento</li>
+                                            <li>Plazos de hasta 15 años</li>
+                                            <li>Apoyo a proyectos
+                                                innovadores</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Flujo de Efectivo -->
+                    <div class="financial-section">
+                        <h3 class="financial-section-title">7. Flujo de
+                            Efectivo</h3>
+                        <div class="financial-content">
+                            <div class="chart-container">
+                                <canvas id="cashFlowChart"></canvas>
+                            </div>
+                            <div class="cashflow-highlights">
+                                <div class="cashflow-item positive">
+                                    <i class="fas fa-arrow-up"></i>
+                                    <div>
+                                        <h4>Saldo Final Proyectado
+                                            (Diciembre)</h4>
+                                        <p>$927,140</p>
+                                    </div>
+                                </div>
+                                <div class="cashflow-item negative">
+                                    <i class="fas fa-arrow-down"></i>
+                                    <div>
+                                        <h4>Mes Crítico (Enero)</h4>
+                                        <p>Saldo negativo: -$193,889</p>
+                                        <small>Requiere inversión inicial para
+                                            cubrir</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Conclusión -->
+                    <div class="financial-section">
+                        <h3 class="financial-section-title">8. Conclusión</h3>
+                        <div class="financial-content conclusion-content">
+                            <div class="conclusion-item">
+                                <h4>Viabilidad</h4>
+                                <ul>
+                                    <li><i class="fas fa-check-circle"></i>
+                                        Rentabilidad alcanzada en 12 meses</li>
+                                    <li><i class="fas fa-check-circle"></i>
+                                        Modelo escalable con bajo riesgo
+                                        financiero</li>
+                                    <li><i class="fas fa-check-circle"></i>
+                                        Estructura de costos optimizada</li>
+                                    <li><i class="fas fa-check-circle"></i>
+                                        Margen de utilidad competitivo</li>
+                                </ul>
+                            </div>
+                            <div class="conclusion-item">
+                                <h4>Siguientes Pasos</h4>
+                                <ul>
+                                    <li><i class="fas fa-arrow-right"></i>
+                                        Atraer inversión para aumentar
+                                        producción</li>
+                                    <li><i class="fas fa-arrow-right"></i>
+                                        Expandir canales de distribución</li>
+                                    <li><i class="fas fa-arrow-right"></i>
+                                        Desarrollar nuevas variantes del
+                                        producto</li>
+                                    <li><i class="fas fa-arrow-right"></i>
+                                        Implementar estrategias de marketing
+                                        digital</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cta-financial">
+                            <p>GomiBoom representa una oportunidad de inversión
+                                atractiva con un modelo de negocio sostenible y
+                                rentable.</p>
+                            <a href="#contacto" class="btn-primary">Contactar
+                                para más información</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonios Section -->
+            <section class="testimonios">
+                <div class="container">
+                    <h2 class="section-title">Lo que dicen nuestros
+                        clientes</h2>
+                    <div class="testimonial-slider" id="testimonial-slider">
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <p>"Las gomitas GomiBoom son deliciosas y me encanta saber que estoy consumiendo algo saludable. ¡Mi piel luce increíble!"</p>
+                                <div class="testimonial-author">
+                                    <h4>María González</h4>
+                                    <p>Cliente desde 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <p>"Mis hijos adoran las formas de dinosaurios y yo estoy feliz de darles un snack nutritivo. ¡Una combinación perfecta!"</p>
+                                <div class="testimonial-author">
+                                    <h4>Carlos Rodríguez</h4>
+                                    <p>Padre de familia</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <p>"Como deportista, valoro mucho los beneficios del colágeno para mis articulaciones. GomiBoom es mi snack favorito después de entrenar."</p>
+                                <div class="testimonial-author">
+                                    <h4>Laura Martínez</h4>
+                                    <p>Atleta</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button id="prev-btn" class="slider-btn"><i
+                                class="fas fa-chevron-left"></i></button>
+                        <button id="next-btn" class="slider-btn"><i
+                                class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section class="cta">
+                <div class="container">
+                    <h2>¿Listo para probar GomiBoom?</h2>
+                    <p>Contáctanos para hacer tu pedido o encontrar el punto de
+                        venta más cercano.</p>
+                    <a href="#contacto" class="btn-primary">Contactar ahora</a>
+                </div>
+            </section>
+        </main>
+
+        <!-- Contacto Section -->
+        <section id="contacto" class="contacto">
+            <div class="container">
+                <h2 class="section-title">Contacto</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Información de contacto</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <p>452 229 9691 / 452 282 8412</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>info@gomiboom.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Uruapan, Michoacán, México</p>
+                        </div>
+                        <div class="social-media">
+                            <a href="#" class="social-icon"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i
+                                    class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Envíanos un mensaje</h3>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nombre</label>
+                                <input type="text" id="name" name="name"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Correo electrónico</label>
+                                <input type="email" id="email" name="email"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensaje</label>
+                                <textarea id="message" name="message" rows="5"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary">Enviar
+                                mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="GomiBoom Logo">
+                        <p>Una explosión de sabor</p>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Enlaces rápidos</h3>
+                        <ul>
+                            <li><a href="#inicio">Inicio</a></li>
+                            <li><a href="#producto">Producto</a></li>
+                            <li><a href="#beneficios">Beneficios</a></li>
+                            <li><a
+                                    href="#sostenibilidad">Sostenibilidad</a></li>
+                            <li><a href="#analisis-financiero">Análisis
+                                    Financiero</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-newsletter">
+                        <h3>Suscríbete a nuestro boletín</h3>
+                        <p>Recibe noticias y promociones especiales</p>
+                        <form id="newsletter-form">
+                            <input type="email"
+                                placeholder="Tu correo electrónico" required>
+                            <button type="submit"
+                                class="btn-secondary">Suscribirse</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 GomiBoom. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
