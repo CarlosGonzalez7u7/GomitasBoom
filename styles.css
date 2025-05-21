@@ -137,6 +137,17 @@ ul {
     height: 50px;
 }
 
+.exel1 img {
+    margin: auto;
+    /*height: 334px;*/
+    display: block;
+    width: 60%;
+    flex: 1;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+
 .nav-menu {
     display: flex;
     align-items: center;
@@ -395,6 +406,7 @@ ul {
 
 .sustainability-image {
     flex: 1;
+    margin: auto;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: var(--shadow);
